@@ -17,7 +17,7 @@ For further information and design details, see the [about.pdf](https://drive.go
 
 ## Notes
 
-Some test programs and a MIPS Assembler for this Verilog Microprocessor is available at [Pipelined Assembler](https://github.com/kamiljaved98/mips-assembler).
+Some test programs and an assembler app for this Verilog Microprocessor is available at [MIPS Assembler](https://github.com/kamiljaved98/mips-assembler).
 
 ---
 

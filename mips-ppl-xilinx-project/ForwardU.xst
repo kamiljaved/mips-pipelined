@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/xst"
+elaborate
+-ifn ForwardU.prj
+-ifmt mixed

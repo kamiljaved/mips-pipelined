@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj MIPS_pipeline -o "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/ForwardU.tfi" -lib work "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline//Main.v" -module ForwardU -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

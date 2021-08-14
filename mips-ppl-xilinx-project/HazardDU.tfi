@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+HazardDU instance_name (
+    .PCWrite(PCWrite), 
+    .IF_ID_Write(IF_ID_Write), 
+    .Stall(Stall), 
+    .ID_EX__MemRead(ID_EX__MemRead), 
+    .ID_EX__rt(ID_EX__rt), 
+    .IF_ID__rs(IF_ID__rs), 
+    .IF_ID__rt(IF_ID__rt)
+    );
+
+

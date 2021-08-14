@@ -1,0 +1,5 @@
+set -tmpdir "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS-2/xst/projnav.tmp"
+set -xsthdpdir "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS-2/xst"
+elaborate
+-ifn DataMemory.prj
+-ifmt mixed

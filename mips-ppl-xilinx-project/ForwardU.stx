@@ -1,0 +1,58 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "SignExtension.v" in library work
+Compiling verilog file "RegisterBank.v" in library work
+Module <SignExtension> compiled
+Compiling verilog file "Register.v" in library work
+Module <RegisterBank> compiled
+Compiling verilog file "Multiplexor.v" in library work
+Module <Register> compiled
+Compiling verilog file "InstructionMemory.v" in library work
+Module <Multiplexor> compiled
+Compiling verilog file "DataMemory.v" in library work
+Module <InstructionMemory> compiled
+Compiling verilog file "ALU.v" in library work
+Module <DataMemory> compiled
+Compiling verilog file "Adder.v" in library work
+Module <ALU> compiled
+Module <Adder> compiled
+Module <FullAdder_1bit> compiled
+Compiling verilog file "Main.v" in library work
+Module <HalfAdder_1bit> compiled
+Module <Main> compiled
+Module <Control> compiled
+Module <ControlALU> compiled
+Module <ForwardU> compiled
+No errors in compilation
+Analysis of file <"ForwardU.prj"> succeeded.
+ 
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.41 secs
+ 
+--> 
+
+Total memory usage is 4476772 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

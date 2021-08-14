@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+ForwardU instance_name (
+    .ForwA(ForwA), 
+    .ForwB(ForwB), 
+    .EX_MEM__RegWrite(EX_MEM__RegWrite), 
+    .MEM_WB__RegWrite(MEM_WB__RegWrite), 
+    .EX_MEM__rWR(EX_MEM__rWR), 
+    .MEM_WB__rWR(MEM_WB__rWR), 
+    .ID_EX__rs(ID_EX__rs), 
+    .ID_EX__rt(ID_EX__rt)
+    );
+
+

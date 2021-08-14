@@ -1,0 +1,8 @@
+verilog work "SignExtension.v"
+verilog work "RegisterBank.v"
+verilog work "ProgramCounter.v"
+verilog work "Multiplexor.v"
+verilog work "InstructionMemory.v"
+verilog work "DataMemory.v"
+verilog work "ALU.v"
+verilog work "Main.v"

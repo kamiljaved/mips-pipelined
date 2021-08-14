@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/ForwardU_test_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="ForwardU_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="10" />
+   <wvobject fp_name="/ForwardU_test/ForwA" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ForwA[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwA[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/ForwB" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ForwB[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ForwB[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/EX_MEM__RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM__RegWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM__RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/MEM_WB__RegWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB__RegWrite</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB__RegWrite</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/EX_MEM__rWR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM__rWR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM__rWR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/MEM_WB__rWR" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">MEM_WB__rWR[4:0]</obj_property>
+      <obj_property name="ObjectShortName">MEM_WB__rWR[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/ID_EX__rs" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX__rs[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX__rs[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/ID_EX__rt" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">ID_EX__rt[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ID_EX__rt[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/uut/EX_MEM__bMatch_s" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM__bMatch_s</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM__bMatch_s</obj_property>
+   </wvobject>
+   <wvobject fp_name="/ForwardU_test/uut/EX_MEM__bWrite" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">EX_MEM__bWrite</obj_property>
+      <obj_property name="ObjectShortName">EX_MEM__bWrite</obj_property>
+   </wvobject>
+</wave_config>

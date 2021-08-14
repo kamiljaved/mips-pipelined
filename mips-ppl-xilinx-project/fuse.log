@@ -1,0 +1,51 @@
+Running: C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -lib unisims_ver -lib unimacro_ver -lib xilinxcorelib_ver -o C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main_test_isim_beh.exe -prj C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main_test_beh.prj work.Main_test work.glbl 
+ISim P.20131013 (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/SignExtension.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/RegisterBank.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Register.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Multiplexor.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/InstructionMemory.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/DataMemory.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/ALU.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Adder.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main.v" into library work
+Analyzing Verilog file "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main_test.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling module Control
+Compiling module ControlALU
+Compiling module Register(bREG=39)
+Compiling module Register(bREG=162)
+Compiling module Register(bREG=114)
+Compiling module Register(bREG=71)
+Compiling module Register(bREG=7)
+Compiling module InstructionMemory_default
+Compiling module RegisterBank
+Compiling module ALU
+Compiling module DataMemory_default
+Compiling module SignExtension
+Compiling module SignExtension(bOLD=26)
+Compiling module HalfAdder_1bit
+Compiling module FullAdder_1bit
+Compiling module Adder(bNUM=7)
+Compiling module Adder_default
+Compiling module Multiplexor(nINPUT=2,bINPUT=5,bS...
+Compiling module Multiplexor(bINPUT=32)
+Compiling module Multiplexor(nINPUT=2,bINPUT=32,b...
+Compiling module Multiplexor(bINPUT=7)
+Compiling module Multiplexor(nINPUT=2,bINPUT=12,b...
+Compiling module ForwardU
+Compiling module HazardDU
+Compiling module Main_default
+Compiling module Main_test
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 20 sub-compilation(s) to finish...
+Compiled 27 Verilog Units
+Built simulation executable C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main_test_isim_beh.exe
+Fuse Memory Usage: 32592 KB
+Fuse CPU Usage: 1015 ms

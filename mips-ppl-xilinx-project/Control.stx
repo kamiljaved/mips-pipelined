@@ -1,0 +1,60 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to C:/Users/Kamil/Desktop/Xilinx Projects/LAB_3/xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.16 secs
+ 
+--> Parameter xsthdpdir set to C:/Users/Kamil/Desktop/Xilinx Projects/LAB_3/xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.17 secs
+ 
+--> WARNING:Xst:3164 - Option "-debug" found multiple times in the command line. Only the first occurence is considered.
+
+=========================================================================
+*                          HDL Compilation                              *
+=========================================================================
+Compiling verilog file "SignExtension.v" in library work
+Compiling verilog file "RegisterBank.v" in library work
+Module <SignExtension> compiled
+Compiling verilog file "ProgramCounter.v" in library work
+Module <RegisterBank> compiled
+Compiling verilog file "Multiplexor.v" in library work
+Module <ProgramCounter> compiled
+Compiling verilog file "InstructionMemory.v" in library work
+Module <Multiplexor> compiled
+Compiling verilog file "DataMemory.v" in library work
+Module <InstructionMemory> compiled
+Compiling verilog file "ALU.v" in library work
+Module <DataMemory> compiled
+Compiling verilog file "Main.v" in library work
+Module <ALU> compiled
+Module <Main> compiled
+Module <Control> compiled
+Module <ControlALU> compiled
+ERROR:HDLCompilers:247 - "ALU.v" line 33 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 33 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 34 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 34 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 35 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 35 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 36 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 36 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 37 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 37 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 38 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 38 Illegal left hand side of blocking assignment
+ERROR:HDLCompilers:247 - "ALU.v" line 39 Reference to vector wire 'F' is not a legal reg or variable lvalue
+ERROR:HDLCompilers:44 - "ALU.v" line 39 Illegal left hand side of blocking assignment
+Analysis of file <"Control.prj"> failed.
+--> 
+
+Total memory usage is 4476592 kilobytes
+
+Number of errors   :   14 (   0 filtered)
+Number of warnings :    1 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

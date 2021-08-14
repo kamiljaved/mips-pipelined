@@ -1,0 +1,18 @@
+
+
+
+// Instantiate the module
+ALU instance_name (
+    .F(F), 
+    .Zero(Zero), 
+    .LessT(LessT), 
+    .LessTE(LessTE), 
+    .GreaterT(GreaterT), 
+    .GreaterTE(GreaterTE), 
+    .A(A), 
+    .B(B), 
+    .Operation(Operation), 
+    .clock(clock)
+    );
+
+

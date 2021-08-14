@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main.xst" -ofn "C:/Users/Kamil/Desktop/Xilinx Projects/MIPS_pipeline/Main.syr" 

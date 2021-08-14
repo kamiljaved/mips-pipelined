@@ -22,4 +22,4 @@ Some test programs and an assembler app for this Verilog Microprocessor is avail
 ---
 
 > [kamiljaved.pythonanywhere.com](https://kamiljaved.pythonanywhere.com/) &nbsp;&middot;&nbsp;
-> GitHub [@kamiljaved98](https://github.com/kamiljaved98) &nbsp;&middot;&nbsp;
+> GitHub [@kamiljaved98](https://github.com/kamiljaved98)

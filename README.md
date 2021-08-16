@@ -11,7 +11,7 @@
 <hr>
 
 ## About
-Pipelined-architecture MIPS Microprocessor (32-bit) implmented in Verilog, supporting 
+Pipelined-architecture MIPS Microprocessor (32-bit) implemented in Verilog, supporting 
 Arithmetic, Immediate, Branch, and Jump instructions. <p> Uses Forwarding & Stalls to handle Data Hazards, and Instruction-Flushing to handle Control Hazards. </p> <p> Implemented in a parameterized manner to allow for easy changing of Register and Memory sizes.</p>
 For further information and design details, see the [about.pdf](https://drive.google.com/file/d/1YdnUR3UkagfX-PjxKnQS0fLA3fbLDMo2/view?usp=sharing) document.
 
